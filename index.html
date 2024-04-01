@@ -3,132 +3,99 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
-<title> FLIX GRATIS </title>
+<title> CONTROLE FILMES</title>
  </head> <body>
-<h1> flix </h1>
-<marquee><img src="banner1.jpg" onclick="" id="fillme" class="" for=""></marquee><br>
-<br>
-<a href="#">
-<img src="donzela.jpg" onclick="flm1()" id="filme" class="" for=""></a>
+ <h3>CONTROLE FILMES FLIX</h3>
+ 
+<a href="Carlos.html">
+<button class="carlos">CARLOS</button></a>
 
-<a href="#">
-<img src="mantadordealuguel.jpg" onclick="flm2()" id="filme" class="" for=""></a>
+<a href="sueli.html">
+<button class="sueli">SUELI</button></a>
 
+<a href="Claudio.html">
+<button class="sueli">CLAUDIO</button></a>
 
-<a href="https://drive.google.com/file/d/15vSfUDDmmhyIuNh4RsmX4rul0Cd1B4RM/view?usp=drivesdk">
-<img src="codigo.jpg" onclick=" flm3()" id="filme" class="" for=""></a>
+<a href="Erica.html">
+<button class="sueli">ERICA</button></a>
 
+<a href="Ednei.html">
+<button class="sueli">EDNEIA</button></a>
 
-<a href="https://drive.google.com/file/d/1tlc16ZG5hgU7TdF9BTfNlza_rixUFrU8/view?usp=drivesdk">
-<img src="cowboyVsAliens.jpg" onclick=" flm4 ()" id="filme" class="" for=""></a>
+<a href="Jonathan.html">
+<button class="sueli">JONATHAN</button></a>
 
+<a href="bahiaSueli.html">
+<button class="sueli">OUTRO</button></a><br>
+<div class="n-vendas">Vendas da semana</div>
+<textarea class="txtarea">
+VANDAS DO DIA 23/03/2024
+SUELI:
 
+EDNEIA:
 
-<a href="https://drive.google.com/file/d/1lUpRnz6D0YgqXgbYwF9Bn6Su24qAajFO/view?usp=drivesdk">
-<img src="ableia.jpg" onclick=" flm5 ()" id="filme" class="" for=""></a>
+JONATHAN:
 
+ERICA:
 
-<a href="https://drive.google.com/file/d/1pnjXVryzADUDtp6zrV6rdROFxcvXotCG/view?usp=drivesdk">
-<img src="o juri.jpg" onclick=" flm6 ()" id="filme" class="" for=""></a>
-
-
-<a href="https://drive.google.com/file/d/0B0_f2IPi6T-0U1o2NVhmZmduNUU/view?usp=drivesdk&resourcekey=0-OQqMb0XByYWLIxzGlFudHw">
-<img src="ateUltimoHomem.jpg" onclick=" flm7()" id="filme" class="" for=""></a>
-
-
-<a href="https://drive.google.com/file/d/10AI0pWkppM7gQDhChvKoo6IOLGb2njl_/view?usp=drivesdk">
-<img src="atetandoemparis.jpg" onclick=" flm8()" id="filme" class="" for=""></a>
-
-
-
-<a href="https://drive.google.com/file/d/1Oa7Xs_zQyLW_05qsy6BMNziF_Ia49vIM/view?usp=drivesdk">
-<img src="amortetedarparabens.jpg" onclick=" flm9()" id="filme" class="" for=""></a>
-
-
-<a href="https://drive.google.com/file/d/1I1NFyAh_MvHsmk7VEKlhtNVncjcfKK-G/view?usp=drivesdk">
-<img src="UmAdolescenteApuros.jpg" onclick=" flm10()" id="filme" class="" for=""></a>
-
-
-
-
+</textarea>
 <style>
-body {
+body{
     background:black;
+    color:white
+    
 }
-#filme {
+.carlos {
     width:30%;
-    height:200px;
-    border:1px solid red;
-    display:k;
-    transform:translateY;
-    transform:translateX;
-    margin-left:5px;
-    
-}
-#filme:hover{
-    cursor:pointer;
-    transition-duration:1s;
-    transform:scale(1.2,1.2);
-}
-#fillme {
-    width:82%;
     height:50px;
-    border:1px solid red;
-    display:;
-    curso:point;
-    padding:10px;
     border-radius:16px;
+    outline:none;
+    }
+    .carlos:focus {
+        border-radius:100px;
+        background:gold;
+        color:red;
+    outline:none;
+    }
+    .carlos:focus {
+        border-radius:100px;
+        background:gold;
+        color:red;
+        outline:none;
     
+
+}
+.sueli{
+    width:30%;
+    height:50px;
+    border-radius:16px;
+    outline:none;
     
 }
-h1{
-    justify-content:center;
-    margin-left:50%;
+.txtarea {
+    height:150px;
+    width:95%;
+    margin-left:10px;
+    padding:20px;
+    dsplay:flex;
+    border-radius:20px;
+    outline:none;
+    background:black;
     color:white;
+}
+
+.n-vendas {
+    margin-left:30%;
     
 }
-.fm {
-  
+
+
+
+
+
+.{ animation-duration: 6s; animation-name: slidein; }
+ @keyframes slidein { from { margin-left: 100%; width: 300%; } to { margin-left: 0%; width: 100%; } }
 }
 </style>
-
-<script>
-function flm1(){
-    alert("aguarder filmes sendo baixado ⬇⬇...");
-}
-
-function flm2(){
-    alert("aguarder filmes sendo baixado⬇⬇ ...");
-}
-function flm3(){
-    alert("O CODIGO");
-}
-
-function flm4(){
-    alert("COWBOY vs ALIENS");
-}
-function flm5(){
-    alert("A BALEIA");
-}
-
-function flm6(){
-    alert("O JURY");
-}
-function flm7(){
-    alert("");
-}
-
-function flm8(){
-    alert(");
-}
-function flm9(){
-    alert("");
-}
-
-function flm10(){
-    alert("");
-}
-</script>
-
 </body>
 </html>
