@@ -9,18 +9,34 @@
 <img class="banner" src="chamar.gif">
 <br><br>
 <label class="homem" src="homem.jpg">HOMEM </label>
-
+<label class="gp">GP</label>
 <label class="mulher">MULHER</label>
+
 <br>
-<img class="foto1" src="mulher.jpg"></img>
+<img class="foto1" src="mulher.jpg">
+<img class="foto2" src="gp.jpg">
+<img class="foto3" src="homem.jpg">
 
-
-<img class="foto2">
 <a href="fotosDoCliente.html">
 <button class="btn1">ENTRA</button></a>
 <a href="fotosDoCliente.html">
 <button class="btn2">ENTRA</button></a>
+<a href="fotosDoCliente.html">
+<button class="btn3">ENTRA</button></a>
+
 <style>
+.btn1:focus {
+    background:lime;
+    color:red;
+}
+.btn2:focus {
+    background:lime;
+    color:red;
+}
+.btn3:focus {
+    background:lime;
+    color:red;
+}
 body{
     background:black;
     color:white;
@@ -47,34 +63,58 @@ margin-left:50px;
 }
 .foto1{
     
-width:45%;
+width:30%;
 height:100px;
 border:1px solid red;
 margin-left:5px;
 }
 
 .foto2{
-width:45%;
+width:30%;
 height:100px;
 border:1px solid red;
-margin-left:5px;
+margin-left:px;
 }
+.foto3{
+width:30%;
+height:100px;
+border:1px solid red;
+margin-left:px;
+}
+
+
 .homem{
-    margin-left:50px;
+    margin-left:30px;
     width:30%;
 }
+.gp {
+    margin-left:70px;
+}
 .mulher{
-    margin-left:100px;}
+    margin-left:80px;
+    
+    }
 .btn1 {
     margin-left:5%;
-    width:35%;
+    width:25%;
     height:30px;
     border-radius:16px;
+    outline:none;
 }
 .btn2{
-    margin-left:14%;
-    width:35%;
+    margin-left:5%;
+    width:25%;
     height:30px;
     border-radius:16px;
+    outline:none;
+}
+.btn3{
+    margin-left:5%;
+    width:25%;
+    height:30px;
+    border-radius:16px;
+    outline:none;
 }
 </style>
+</body>
+</html>
