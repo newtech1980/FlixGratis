@@ -6,7 +6,7 @@
 <title> FLIX-NEWTECH  </title>
  </head> <body>
 <h1> FLIX-NEWTECH </h1>
-<iframe class="img__video" onclick="" id="" src="chamar.mp4"></iframe><br><br>
+<video controls src="chamar.mp4" type="video/mp4 controls" height="100px"width="100%" autoplay loop muted playsinline id="vid" class="img__video"></video><br><br>
 
 
 
@@ -345,5 +345,8 @@ a {
     background:#00d0ff;
 }
 </style>
+<script>
+document.getElementById('vid').play();
+</script>
 </body>
 </html>
