@@ -12,10 +12,10 @@
 <label class="homem">HOMEM </label><label class="mulher">MULHER</label></a>
 <br>
 <a href="fotosDoCliente.html">
-<img class="ft_escolhar1"></img></a>
+<img src="fotoescolhar"class="foto1"></img></a>
 
 <a href="fotosDoCliente.html">
-<img class="ft_escolhar2"></img></a>
+<img src="fotoescolha2"class="foto2"></img></a>
 
 <a href="fotosDoCliente.html">
 <button class="btn1">ENTRA</button></a>
@@ -23,7 +23,7 @@
 <button class="btn2">ENTRA</button></a>
 <style>
 body{
-    
+    background:green;
 }
 h1{
     font-size:25px;
@@ -67,11 +67,37 @@ margin-left:5px;
 .mulher{
     margin-left:100px;}
 .btn1 {
-    margin-left:15%;
+    margin-left:10%;
+   width:30%;
+   height:30px;
+   border-radius:16px;
 }
 .btn2{
-    margin-left:35%;
+    margin-left:17%;
+    width:30%;
+    height:30px;
+    border-radius:16px;
 }
+  .btn1 { animation: btn1 1000ms  infinite;}
+     @keyframes btn1 { 
+     0% { opacity: 1; } 
+     10%{background:green;}
+     
+     40% { opacity: 0; } 
+     70%{background:pink;}
+     100% { opacity: 1; }}
+     
+     
+ .btn2 { animation: btn2 1000ms  infinite;}
+     @keyframes btn2 { 
+     0% { opacity: 1; } 
+     10%{background:red;}
+     
+     40% { opacity: 0; } 
+     70%{background:yellow;}
+     100% { opacity: 1; }}
+     
 </style>
- </body>
-</html>
+<script>
+document.getElementById("vid").play ();
+</script>
