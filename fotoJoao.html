@@ -5,17 +5,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
  <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
 <title> FLIX-NEWTECH  </title>
- </head> <body><label class="picture" for="picture__input" tabIndex="0">
+ </head>
+ <form>
+  <body><label class="picture" for="picture__input" tabIndex="0">
   <span class="picture__image">add sua foto</span>
 </label>
 
 <input type="file" name="picture__input" id="picture__input"><br>
 
-<input type="text" class="nome_input" id="" placeholder="NOME"><br><br>
+<input type="text" class="nome_input" id="" placeholder="NOME" required><br><br>
 
 <a href="chamarPonJoao.html">
- <button type="button" class="btn-close" aria-label="Close" onclick="vai()">ENVIAR</button></a>
- 
+ <button type="submit" class="btn-close" aria-label="Close" onclick="vai()">ENVIAR</button></a>
+ </form>
  <style>
  body {
      background:black;
